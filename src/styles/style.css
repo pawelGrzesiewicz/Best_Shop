@@ -303,6 +303,136 @@ html, body {
         top: 2rem;
 }
 
+.product {
+        max-width: 84.5rem;
+}
+
+.product .product__hdl {
+        font-family: var(--font-Raleway);
+        font-size: 2.25rem;
+        font-weight: 400;
+        margin-inline: auto;
+        text-align: center;
+        margin-top:  6.25rem;
+        margin-bottom: 4.4375rem;
+        color: var(--color-black);
+}
+
+.product_items {
+        display: flex;
+        justify-content: center;
+}
+.product_items .item {
+        display: flex;
+        width: 23.25rem;
+        height: 28.8125rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.125rem;
+}
+.item.item__state-red {
+        border: .0625rem solid var(--color-redish);
+}
+.item.item__state-blue {
+        border: .0625rem solid var(--color-primary);
+}
+.item.item__state-green {
+        border: .0625rem solid var(--color-green);
+}
+.item .item__hdl {
+        color: var(--color-black);
+        font-family: var(--font-Raleway);
+        font-weight: 700;
+        font-size: 1.25rem;
+        margin-top: 2.125rem;
+        margin-bottom: .875rem;
+}
+.item .item__price {
+        font-family: var(--font-Open-Sans);
+        font-weight: 300;
+        font-size: 2.875rem;
+        text-align: left;
+}
+.item .item__offer {
+        color: var(--color-black);
+        font-family: var(--font-Raleway);
+        font-weight: 700;
+        font-size: .75rem;
+}
+.item .item__check {
+
+}
+.check .check__checkmark {
+
+}
+.check .check__desc {
+        color: var(--color-black);
+        font-family: var(--font-Open-Sans);
+        font-weight: 400;
+        font-size: .875rem;
+        margin-top: 1.25rem;
+}
+
+.item__btn {
+
+}
+
+.qs-form {
+        display: flex;
+        justify-content: center;
+}
+.qs {
+
+}
+.qs .qs__hdl {
+
+}
+.qs .qs__lead {
+
+}
+.qs .qs__contact {
+
+}
+.qs__contact .qs__contact-icon {
+
+}
+.qs__contact .qs__contact-desc {
+
+}
+
+.form {
+        display: flex;
+        flex-direction: column;
+        width: 27.5rem;
+
+}
+#name {
+
+}
+#email {
+
+}
+.form .form__name {
+
+}
+.form__name .form__name-check {
+
+}
+.form__name .form__name-desc {
+
+}
+.form .form__send {
+
+}
+
+
+
+
+
+
+
+
 
 
 
